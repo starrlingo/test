@@ -23,3 +23,15 @@ print lang[::-1] # reverse string
 # string formatting
 print "{user} is {status}".format(user = 'jason', status = 'alive')
 
+# switch case
+switcher = {
+    0: 'Zero',
+    1: 'One'
+}
+print(switcher.get(0, 'None'))
+# switch case (get immediately)
+switcher = {
+    0: 'Zero',
+    1: 'One'
+}.get(0, 'None')
+print(switcher)

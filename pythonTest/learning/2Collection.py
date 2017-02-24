@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+# list
+
+# tuple
+
 # set
 testSet = {'Jason', 'Johnny'}
 testSet2 = {'Winnie', 'Mary', 'Jason'}
@@ -9,6 +13,7 @@ print testSet - testSet2
 
 # dict
 password = {'Jason': 123, 'Winnie': 456}
+# get dict with defaul value
 print password.get('Jason', 0)
 print password.get('W', 0)
 
